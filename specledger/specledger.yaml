@@ -1,0 +1,25 @@
+version: 1.1.0
+project:
+    id: d0ee8263-ef65-48f0-ab74-17292bf4764c
+    name: data-pipeline
+    short_code: da
+    template: batch-data
+    agent: claude-code
+    created: 2026-02-20T22:04:24.41615+07:00
+    modified: 2026-02-20T22:04:25.371953+07:00
+    version: 0.1.0
+playbook:
+    name: specledger
+    version: 1.0.0
+    applied_at: 2026-02-20T22:04:24.41615+07:00
+    structure:
+        - .claude/
+        - .gitattributes
+        - AGENTS.md
+        - mise.toml
+        - .specledger/
+template_version: dev
+task_tracker:
+    choice: builtin
+    enabled_at: 2026-02-20T22:04:24.41615+07:00
+artifact_path: specledger/
